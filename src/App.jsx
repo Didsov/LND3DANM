@@ -1,6 +1,12 @@
 import { BrowserRouter } from "react-router-dom"
 import NavBar from "./components/NavBar"
 import Hero from "./components/Hero"
+import About from "./components/About"
+import Expirience from "./components/Expirience"
+import Tech from "./components/Tech"
+import Works from "./components/Works"
+import Contact from "./components/Contact"
+import StarsCanvas from "./components/canvas/StarsCanvas"
 
 
 function App() {
@@ -12,14 +18,13 @@ function App() {
           <NavBar/>
           <Hero/>
         </div>
-        <p>About</p> 
-        <p>Exprerience</p> 
-        <p>Tech</p> 
-        <p>Works</p> 
-        <p>Feedbacks</p> 
+        <About/>
+        <Expirience/> 
+        <Tech/> 
+        <Works/>
         <div className="relative z-0">
-          Contact 
-          StarsCanvas 
+          <Contact/> 
+          <StarsCanvas/> 
           </div>
       </div>
     </BrowserRouter>

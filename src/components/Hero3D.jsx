@@ -28,6 +28,7 @@ const Hero3D = () => {
         />
 
     </mesh>
+    
   )
 }
 
